@@ -1,0 +1,19 @@
+.user-card{
+  border:  solid;
+  margin: 5px;
+  border-color: blue;
+  border-radius: 5px;
+  /* padding: 10px; */
+  display: flex;
+  align-items: flex-end;
+}
+
+img{
+  margin-top: 2px;
+  margin-left: 2px;
+  width: 40px;
+}
+
+.user-info{
+  margin-left: 15px;
+}

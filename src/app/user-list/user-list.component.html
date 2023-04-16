@@ -1,0 +1,13 @@
+<div class="user-list">
+  <div class="user-card" *ngFor="let user of userList">
+    <div class="img">
+      <img [src]="user.avatar" alt="users image" />
+    </div>
+    <div class="user-info">
+      <div class="user-name">{{ user.first_name }} {{ user.last_name }} |</div>
+      <div>
+        {{ user.email }}
+      </div>
+    </div>
+  </div>
+</div>
